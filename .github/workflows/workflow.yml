@@ -142,7 +142,7 @@ jobs:
             # Flag to enable/disable Component-Version grouping for SCA Issues in Black Duck SARIF report rules section
             #blackducksca_reports_sarif_groupSCAIssues: # optional
             # Flag to enable/disable uploading of Black Duck SARIF report to GitHub Advanced Security
-            blackducksca_upload_sarif_report: false
+            blackducksca_upload_sarif_report: true
             # Specifies if the workflow should wait for the analysis to complete. Default value: true. If set to false, post merge workflows like PR comment, Fix PR, SARIF etc will not be applicable.
             #blackducksca_waitForScan: # optional
             # Number indicating the search depth in the source directory
